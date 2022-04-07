@@ -12,5 +12,9 @@ const tutorials = [
 ];
 
 const titleCased = () => {
-  return tutorials
+  const newStuff = tutorials.map((element) => {
+    return element.split(' ');
+  })
+    console.log(newStuff);
 }
+titleCased()
